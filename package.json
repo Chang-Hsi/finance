@@ -1,0 +1,34 @@
+{
+  "name": "finance",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.11.3",
+    "@vueuse/nuxt": "^14.2.1",
+    "axios": "^1.13.6",
+    "dayjs": "^1.11.20",
+    "echarts": "^6.0.0",
+    "lightweight-charts": "^5.1.0",
+    "nuxt": "^4.4.2",
+    "vue": "^3.5.30",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^5.0.3",
+    "vuetify": "^4.0.2"
+  },
+  "packageManager": "pnpm@8.6.10+sha1.98fe2755061026799bfa30e7dc8d6d48e9c3edf0",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "sass": "^1.98.0",
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-vue-components": "^31.0.0",
+    "vite-plugin-vuetify": "^2.1.3"
+  }
+}
